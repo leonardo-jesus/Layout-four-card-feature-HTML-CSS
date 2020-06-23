@@ -1,0 +1,164 @@
+/*
+-------
+Colors
+-------
+Primary
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+Neutral
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+*/
+
+body {
+  width: 100vw;
+  height: auto;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 96%);
+}
+
+header {
+  margin: 0 0 60px 0;
+}
+
+bottom {
+  display: flex;
+  justify-content: center;
+}
+
+#bottom-div {
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  padding: 0rem 1rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  line-height: 175%;
+  padding-right: 1px;
+}
+
+#top-header {
+  padding: 60px 20px 0;
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-size: 1.7rem;
+  text-align: center;
+  color: hsl(0, 0%, 60%);
+}
+
+#middle-header {
+  padding: 0 20px 0;
+  margin: 0;
+  color: hsl(0, 0%, 25%);
+  font-weight: 600;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#header-info {
+  padding: 0 20px 0;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  color: hsl(0, 0%, 60%);
+}
+
+
+/* CARD SECTIONS */
+
+.section {
+  padding: 15px 30px;
+}
+
+.card {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+/* Top Border colors for Cards */
+
+#supervisor-card {
+  border-top: 4px solid hsl(180, 40%, 55%);
+}
+
+#team-builder-card {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karma-card {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin-top: 30px;
+}
+
+#calculator-card {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card h2 {
+  color: hsl(0, 0%, 25%);
+  margin: 5px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: hsl(0, 0%, 40%);
+  margin: 15px 0 40px 5px;
+}
+
+.card-image {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-image img {
+  margin: 0 3% 3% 0;
+}
+
+#bottom {
+  margin: 0 0 15% 0;
+}
+
+
+/*================
+  MEDIA QUERIES 
+=================*/
+
+@media only screen and (min-width: 1440px) {
+  header {
+    width: 40%;
+    margin: 0 auto;
+  }
+  #top-header {
+    color: hsl(0, 0%, 0%);
+    font-weight: 200;
+  }
+  main {
+    display: flex;
+    align-items: stretch;
+    margin: 2% 5% 3%;
+  }
+  main section {
+    flex: 1;
+  }
+  #top {
+    align-self: center;
+  }
+  #bottom {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+}
