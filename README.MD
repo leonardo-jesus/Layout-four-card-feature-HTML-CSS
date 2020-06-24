@@ -34,7 +34,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The ***Layout Four Card Feature***,  is a Project, with the purpose of training Responsive Pages Layouts, using *Media Query* and *repsonsive units*, made with **HTML** and **CSS**.
+The ***Layout Four Card Feature***,  is a Project, with the purpose of training *Responsive* Pages Layouts, using ***Media Query*** and ***repsonsive units***, made with **HTML** and **CSS**.
 
 ## 🔖 Layout
 
