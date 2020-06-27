@@ -1,5 +1,5 @@
 <p align="center">
-	<h1 align="center">Layout Four Card Feature :file_folder:</h1>
+	<h1 align="center">Layout Four Card Feature</h1>
 </p>
 
 <p align="center">
